@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MemNode	copy/vld.h	/^typedef struct MemNode{$/;"	s
+MemNode	copy/vld.h	/^}MemNode;$/;"	t	typeref:struct:MemNode
+MemNode	include/vld.h	/^typedef struct MemNode{$/;"	s
+MemNode	include/vld.h	/^}MemNode;$/;"	t	typeref:struct:MemNode
+MemNode	vld.h	/^typedef struct MemNode{$/;"	s
+MemNode	vld.h	/^}MemNode;$/;"	t	typeref:struct:MemNode
+Vld	copy/vld.cpp	/^Vld::Vld(){	$/;"	f	class:Vld
+Vld	copy/vld.h	/^class Vld{$/;"	c
+Vld	include/vld.h	/^class Vld{$/;"	c
+Vld	vld.cpp	/^Vld::Vld(){	$/;"	f	class:Vld
+Vld	vld.h	/^class Vld{$/;"	c
+_file	copy/vld.h	/^	char *_file;           \/*内存泄漏所在的函数*\/$/;"	m	struct:MemNode
+_file	include/vld.h	/^	char *_file;           \/*内存泄漏所在的函数*\/$/;"	m	struct:MemNode
+_file	vld.h	/^	char *_file;           \/*内存泄漏所在的函数*\/$/;"	m	struct:MemNode
+_line	copy/vld.h	/^	int _line;			   \/*内存泄漏所在的行*\/$/;"	m	struct:MemNode
+_line	include/vld.h	/^	int _line;			   \/*内存泄漏所在的行*\/$/;"	m	struct:MemNode
+_line	vld.h	/^	int _line;			   \/*内存泄漏所在的行*\/$/;"	m	struct:MemNode
+_next	copy/vld.h	/^	struct MemNode *_next; $/;"	m	struct:MemNode	typeref:struct:MemNode::MemNode
+_next	include/vld.h	/^	struct MemNode *_next; $/;"	m	struct:MemNode	typeref:struct:MemNode::MemNode
+_next	vld.h	/^	struct MemNode *_next; $/;"	m	struct:MemNode	typeref:struct:MemNode::MemNode
+_size	copy/vld.h	/^	int _size;             \/*泄漏内存的大小*\/$/;"	m	struct:MemNode
+_size	include/vld.h	/^	int _size;             \/*泄漏内存的大小*\/$/;"	m	struct:MemNode
+_size	vld.h	/^	int _size;             \/*泄漏内存的大小*\/$/;"	m	struct:MemNode
+check_vld	copy/vld.cpp	/^void check_vld(){$/;"	f
+check_vld	vld.cpp	/^void check_vld(){$/;"	f
+hash_table_t	copy/vld.h	/^typedef MemNode* hash_table_t[size];\/*为了提高查找，删除效率，改链表为哈系表*\/$/;"	t
+hash_table_t	include/vld.h	/^typedef MemNode* hash_table_t[size];\/*为了提高查找，删除效率，改链表为哈系表*\/$/;"	t
+hash_table_t	vld.h	/^typedef MemNode* hash_table_t[size];\/*为了提高查找，删除效率，改链表为哈系表*\/$/;"	t
+ht	copy/vld.cpp	/^hash_table_t ht;$/;"	v
+ht	vld.cpp	/^hash_table_t ht;$/;"	v
+init_hash_table	copy/vld.cpp	/^void init_hash_table(){$/;"	f
+init_hash_table	vld.cpp	/^void init_hash_table(){$/;"	f
+main	copy/vld.cpp	/^int main()$/;"	f
+main	test.cpp	/^int main()$/;"	f
+new	copy/vld.cpp	101;"	d	file:
+new	test.cpp	10;"	d	file:
+operator delete	copy/vld.cpp	/^void operator delete(void *ptr,int flag){$/;"	f
+operator delete	vld.cpp	/^void operator delete(void *ptr,int flag){$/;"	f
+operator delete[]	copy/vld.cpp	/^void operator delete[](void *ptr){$/;"	f
+operator delete[]	vld.cpp	/^void operator delete[](void *ptr){$/;"	f
+operator new	copy/vld.cpp	/^void* operator new(size_t size,char *file,int line,int flag){$/;"	f
+operator new	vld.cpp	/^void* operator new(size_t size,char *file,int line,int flag){$/;"	f
+operator new[]	copy/vld.cpp	/^void* operator new[](size_t size,char *file,int line){$/;"	f
+operator new[]	vld.cpp	/^void* operator new[](size_t size,char *file,int line){$/;"	f
+size	copy/vld.h	/^const int size = 2;$/;"	v
+size	include/vld.h	/^const int size = 2;$/;"	v
+size	vld.h	/^const int size = 2;$/;"	v
+v	copy/vld.cpp	/^Vld v;$/;"	v
+v	test.cpp	/^Vld v;$/;"	v
+~Vld	copy/vld.cpp	/^Vld::~Vld(){$/;"	f	class:Vld
+~Vld	vld.cpp	/^Vld::~Vld(){$/;"	f	class:Vld
